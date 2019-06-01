@@ -1,4 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+  background: #fafafa;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  // &.auth {
+  //   background-image: url("./assets/bg.jpg");
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   // background: linear-gradient(
+  //   //   to top right,
+  //   //   map-get($laudo-pallete, 600),
+  //   //   map-get($laudo-pallete, 100)
+  //   // );
+  // }
+}
+
+.wrapper {
+  padding: 1rem 1rem 2rem;
+  max-height: calc(100% - 64px);
+  height: 100%;
+  overflow: auto;
+  height: 100%;
+  overflow: auto;
+}
