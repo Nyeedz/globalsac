@@ -17,6 +17,7 @@ import {
   MatInputModule,
   MatButtonModule
 } from "@angular/material";
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent, LoginComponent],
@@ -32,7 +33,8 @@ import {
     MatProgressBarModule,
     MatSnackBarModule,
     MatInputModule,
-    MatButtonModule
+    MatButtonModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
